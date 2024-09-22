@@ -12,21 +12,101 @@
     <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
 
     <!-- Text Colors -->
+    <p class="text-black">Tailwind is awesome</p>
+    <p class="text-red-50">Tailwind is awesome</p>
+    <p class="text-red-100">Tailwind is awesome</p>
+    <p class="text-red-200">Tailwind is awesome</p>
+    <p class="text-red-300">Tailwind is awesome</p>
+    <p class="text-red-400">Tailwind is awesome</p>
+    <p class="text-red-500">Tailwind is awesome</p>
+    <p class="text-red-600">Tailwind is awesome</p>
+    <p class="text-red-700">Tailwind is awesome</p>
+    <p class="text-red-800">Tailwind is awesome</p>
+    <p class="text-red-900">Tailwind is awesome</p>
 
     <!-- Background Colors -->
+    <div class="bg-slate-600">
+      <p class="text-white">Tailwind is awesome</p>
+    </div>
+    <div class="bg-zinc-400">
+      <p class="text-white">Tailwind is awesome</p>
+    </div>
+    <div class="bg-emerald-600">
+      <p class="text-white">Tailwind is awesome</p>
+    </div>
 
     <!-- Text Underline -->
+    <p class="underline text-red-700 decoration-red-700">Tailwind is awesome</p>
+    <p class="underline text-blue-700 decoration-blue-700">
+      Tailwind is awesome
+    </p>
+    <p class="underline text-red-700 decoration-red-700 decoration-dashed">Tailwind is awesome</p>
+    <p class="underline text-blue-700 decoration-blue-700 decoration-dotted">
+      Tailwind is awesome
+    </p>
+    <p class="underline text-blue-700 decoration-blue-700 decoration-double"></p>
+      Tailwind is awesome
+    </p>
 
     <!-- Border Colors -->
+    <input class="border-2 border-rose-500" />
+    <input class="border-2 border-blue-300" />
+    <input class="border-2 border-purple-900" />
+    <input class="border-2 border-yellow-500" />
 
     <!-- Divide Colors -->
+    <div class="divide-y divide-blue-200">
+      <div class="px-1 py-2">Item 1</div>
+      <div class="px-1 py-2">Item 2</div>
+      <div class="px-1 py-2">Item 4</div>
+      <div class="px-1 py-2">Item 5</div>
+      <div class="px-1 py-2">Item 6</div>
+    </div>
 
     <!-- Outline Colors -->
+    <button class="outline outline-blue-500">Subscribe</button>
+    <button class="outline outline-purple-300">Subscribe</button>
+    <button class="outline outline-gray-500">Subscribe</button>
 
     <!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
+    <div class="mt-4">
+      <button class="bg-cyan-500 shadow-lg shadow-cyan-500">Subscribe</button>
+      <button class="bg-blue-500 shadow-lg shadow-blue-500/50">Subscribe</button>
+      <button class="bg-indigo-500 shadow-lg shadow-indigo-500/50">
+        Subscribe
+      </button>
+    </div>
 
     <!-- Accent Colors -->
+     <div class="flex items-center justify-start gap-6 mt-4">
+      <label class="flex items-center justify-start gap-2">
+        <input type="checkbox" class="accent-purple-500 size-4" checked />
+        <span>Option 1</span>
+      </label>
+      <label>
+        <input type="checkbox" class="accent-pink-500" checked /> Option 2
+      </label>
+      <label>
+        <input type="checkbox" class="accent-red-300" checked /> Option 3
+      </label>
+      <label class="flex items-center gap-2">
+        <input type="checkbox" class="size-4 accent-amber-500" /><span>Option 4</span>
+      </label>
+      <label class="flex items-center gap-2">
+        <input type="radio" class="size-4 accent-amber-500"/><span>Option 5</span>
+      </label>
+      <label class="flex items-center gap-2">
+        <input type="checkbox" class="size-4 accent-blue-500" /><span>Option 4</span>
+      </label>
+    </div>
 
     <!-- Arbitrary Colors -->
+    <div class="flex items-center justify-center h-0.5 bg-gray-200 my-9">
+      <span class="bg-white px-2 py-0 outline outline-2 outline-gray-200 rounded-md font-semibold text-black">Arbitrary Colors</span>
+    </div>
+    <div class="flex items-center p-2 bg-[#427fab] h-10">Hello</div>
+    <div class="flex items-center p-2 text-[#427fab] h-10">Hello</div>
+    <div class="flex items-center p-2 border border-[#427fab] h-10 m-2">Hello</div>
+    <div class="flex items-center p-2 bg-[green] h-10 m-2">Hello</div>
   </body>
 </html>
